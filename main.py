@@ -24,7 +24,7 @@ class Ellipse(QMainWindow):
         self.repaint()
 
     def draw_ellipse(self, qp):
-        qp.setBrush(QColor(randint(0, 255), randint(0, 255), randint(0, 255)))
+        qp.setBrush(QColor("yellow"))
         qp.drawEllipse(100, 100, randint(50, 500), randint(50, 500))
 
 
